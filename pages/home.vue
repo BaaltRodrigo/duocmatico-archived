@@ -14,7 +14,10 @@
       <home-hero />
     </v-container>
     <!-- Card with features -->
-    <v-container class="rounded-xl bg-grey-lighten-5 pa-10 mb-10">
+    <v-container
+      class="rounded-xl bg-grey-lighten-5 pa-10 mb-10"
+      style="max-width: 80rem"
+    >
       <h2 class="text-h5 mb-8">Cosas que puedes hacer con Duocmatico</h2>
       <v-row>
         <v-col
