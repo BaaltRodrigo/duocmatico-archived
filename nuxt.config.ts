@@ -18,6 +18,11 @@ export default defineNuxtConfig({
     },
     //...
   ],
+  nitro: {
+    prerender: {
+      autoSubfolderIndex: true,
+    }
+  },
   vite: {
     vue: {
       template: {
